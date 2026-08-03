@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610"
+     viewBox="0 0 1180 610" role="img"
+     aria-labelledby="title description">
+<title id="title">Limitbreakzz — Full Stack Developer</title>
+<desc id="description">Terminal-style profile card with ASCII portrait, stack, and links.</desc>
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0D1117"/>
+    <stop offset="1" stop-color="#161B22"/>
+  </linearGradient>
+  <linearGradient id="ascii-signal" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#F0F6FC"/>
+    <stop offset="1" stop-color="#79C0FF"/>
+  </linearGradient>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0"    stop-color="#8B949E"/>
+    <stop offset="0.48" stop-color="#58A6FF"/>
+    <stop offset="1"    stop-color="#8B949E"/>
+  </linearGradient>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0"   stop-color="#58A6FF" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#58A6FF" stop-opacity="0.46"/>
+    <stop offset="1"   stop-color="#8B949E" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#58A6FF" opacity="0.052"/>
+  </pattern>
+  <clipPath id="portrait-clip">
+    <rect x="24" y="82" width="460" height="438" rx="12"/>
+  </clipPath>
+  <style>
+    .mono  { font-family: "Courier New", Consolas, monospace; }
+    .ascii { font-family: "Courier New", Consolas, monospace; font-size: 6.5px;
+              letter-spacing: -0.15px; fill: url(#ascii-signal); }
+    .panel-title  { font-family: "Courier New", Consolas, monospace; font-size: 11px;
+                     letter-spacing: 2px; fill: #C9D1D9; opacity: 0.78; }
+    .terminal-label { font-family: "Courier New", Consolas, monospace; font-size: 12px;
+                       letter-spacing: 0.5px; fill: #8B949E; }
+    .live-label { font-family: "Courier New", Consolas, monospace; font-size: 10px;
+                   letter-spacing: 1px; fill: #58A6FF; }
+    .system-head { font-family: "Courier New", Consolas, monospace;
+                    font-size: 16px; font-weight: 700; }
+    .system-section, .system-row { font-family: "Courier New", Consolas, monospace;
+                                     font-size: 13px; }
+    .system-section { font-weight: 700; }
+    text, tspan { white-space: pre; }
+    @keyframes scan-sweep {
+      from { transform: translateY(-80px); }
+      to   { transform: translateY(680px); }
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .motion-scan { animation: scan-sweep 8s linear infinite; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .motion-scan { display: none; }
+    }
+  </style>
+</defs>
+
+<!-- ── Background ── -->
+<rect width="1180" height="610" rx="18" fill="url(#bg)"/>
+<rect width="1180" height="610" rx="18" fill="url(#scanlines)"/>
+
+<!-- ── Title bar ── -->
+<rect x="3" y="3" width="1174" height="34" rx="16" fill="#161B22" fill-opacity="0.84"/>
+<circle cx="24"  cy="20" r="5" fill="#FF5F57" opacity="0.88"/>
+<circle cx="42"  cy="20" r="5" fill="#FEBC2E" opacity="0.88"/>
+<circle cx="60"  cy="20" r="5" fill="#28C840" opacity="0.88"/>
+<text x="590" y="25" text-anchor="middle" class="terminal-label">Limitbreakzz ~ $ ./profile --live</text>
+<circle cx="1038" cy="20" r="4" fill="#58A6FF"/>
+<text x="1048" y="24" class="live-label">BUILDING</text>
+
+<!-- ── Left portrait panel ── -->
+<rect x="14"  y="48" width="480" height="500" rx="14"
+      fill="#161B22" fill-opacity="0.38"
+      stroke="url(#border)" stroke-opacity="0.42"/>
+
+<!-- Portrait header label -->
+<text x="36" y="72" class="panel-title">VISUAL.MAP / PORTRAIT.SIGNAL</text>
+
+<!-- ASCII art (clipped) -->
+<g clip-path="url(#portrait-clip)">
+  <text x="26" y="90.0" class="ascii">88888888888888888888888L;.            ..;;L8888888888888888888</text>
+  <text x="26" y="97.0" class="ascii">8888888888888888888888L;.               ..fG088888888888888888</text>
+  <text x="26" y="104.0" class="ascii">888888888888888888880L;                   ;1L08888888888888888</text>
+  <text x="26" y="111.0" class="ascii">00888888888888888888L,                    .,;C8888888888888888</text>
+  <text x="26" y="118.0" class="ascii">0008880888888888880t,                       :LG888888888888888</text>
+  <text x="26" y="125.0" class="ascii">00008888888888888Gf:                        :;f088888888888888</text>
+  <text x="26" y="132.0" class="ascii">00000008888888880f,                          ,1L88888888888888</text>
+  <text x="26" y="139.0" class="ascii">000000000888888801                           ..108888888888888</text>
+  <text x="26" y="146.0" class="ascii">0000000008888880L:                             1G8888888888888</text>
+  <text x="26" y="153.0" class="ascii">0000000000888880i.                            .;C8888888888000</text>
+  <text x="26" y="160.0" class="ascii">000000000008888C:                              ,L8888888880800</text>
+  <text x="26" y="167.0" class="ascii">000000000008888G,                              .1G888888888800</text>
+  <text x="26" y="174.0" class="ascii">000000000000888G,                               :G880888888000</text>
+  <text x="26" y="181.0" class="ascii">000000000000008C.                               ,C808888088000</text>
+  <text x="26" y="188.0" class="ascii">000000000000008L            ..,,,....           ,G808880808000</text>
+  <text x="26" y="195.0" class="ascii">000000000000008L           .,,,;;,,,...         :G808008808000</text>
+  <text x="26" y="202.0" class="ascii">000000000000008C,         .,,,:;i;,,,,..        18008888880000</text>
+  <text x="26" y="209.0" class="ascii">000000000000008C.        .,,::;iii;::,,,.      .f0800080000000</text>
+  <text x="26" y="216.0" class="ascii">000000000000000G;       ..:;:;iiiiii;::,,.      f8000000000000</text>
+  <text x="26" y="223.0" class="ascii">00000000000000001      .,:;i1iiiiiiii;:::,      L8000000000000</text>
+  <text x="26" y="230.0" class="ascii">0000000000000008f     .,;ii1tt11i1tt1ii;;:,    .G8000000000000</text>
+  <text x="26" y="237.0" class="ascii">0000000000000000G,   .,;i11t11111ttt1111i;:    i00000000000000</text>
+  <text x="26" y="244.0" class="ascii">00000000000000008i   ,;,,:::;i1i1iiii;:::;:.  ,C00000000000000</text>
+  <text x="26" y="251.0" class="ascii">00000000000000008G,  :,,.    ,:;;::,.   ,:;,  f000000000000000</text>
+  <text x="26" y="258.0" class="ascii">000000000000000008i .;::;:,   .,,,.  ..,::;, ;0000000000000000</text>
+  <text x="26" y="265.0" class="ascii">GGG0GGGGGG00000008L .;::;i;,...,,,..,:i;:;i. C8000000000000000</text>
+  <text x="26" y="272.0" class="ascii">GGGGGGGGGGGG000008C ,;:,....,..::,.,,,::;;i.,00000000000000000</text>
+  <text x="26" y="279.0" class="ascii">GGGGGGGGGG00000008G ,;.      .,1t:..    .:i..G0000000000000000</text>
+  <text x="26" y="286.0" class="ascii">GGGGGGGGGGG00000000.:;:,.  ,.:;tf;:   ...,;,.G0000000000000000</text>
+  <text x="26" y="293.0" class="ascii">GGGGGGGGGGG00000000,;1t1;;;i11iffi1i;:::iii:,00000000000000000</text>
+  <text x="26" y="300.0" class="ascii">GGGGGGGGGGG00000000;;11t11i1t1ifL1111iii11i:;00000000000000000</text>
+  <text x="26" y="307.0" class="ascii">GGGGGGGGGGGG0000008i;iitt111ii1fLt111ii11i1:t8G000000000000000</text>
+  <text x="26" y="314.0" class="ascii">GGGGGGGGGGGG0000008t:;;i1111iitfft1i111ii;i:L00000000000G00G00</text>
+  <text x="26" y="321.0" class="ascii">GGGGGGGGGGGG0000000L::;i1tti:1tfLtt;111i;;;;G0000000000000000G</text>
+  <text x="26" y="328.0" class="ascii">GGGGGGGGGGG00000000L,::i11tiit11t1t1i11i;;;10000000000000G0000</text>
+  <text x="26" y="335.0" class="ascii">GGGGGGGGGGG00000000C,::;;i1iii:;;;;1i11i;;:i000000000000GG0000</text>
+  <text x="26" y="342.0" class="ascii">GGGGGGGGGGGGG0000000L:,:;iii,  .,. ,iii;;;;tG00000000000GGGGGG</text>
+  <text x="26" y="349.0" class="ascii">GGGGGGGGGGGGGG0000000;,:;ii1.    . .ii;;;:1LCG00000000GG00GGGG</text>
+  <text x="26" y="356.0" class="ascii">GGGGGGGGGGGGGGGG000001,::;i1:.:,.:,,ii;;;;1tLG0000000GGGGGGGGG</text>
+  <text x="26" y="363.0" class="ascii">GGGGGGGGGGGGGGGGGGGG0f,,:;ii;;;;;;i;;;;::;1tfCG000GGGGGGGGGGGG</text>
+  <text x="26" y="370.0" class="ascii">GGGGGGGGGGGGGGGGGGGGGL:,:::,:. ,,.,;::;:;i11fLG0000GGGGGGGGGGG</text>
+  <text x="26" y="377.0" class="ascii">GGGGGGGGGGGGGGGGGGGGCL;,,,..     .  .,::;i11tLG00GGGGGGGGGGGGG</text>
+  <text x="26" y="384.0" class="ascii">GGGGGGGGGGGGGGGGGGGGCf1:,,...,;;:i:..,:;;111tLCG0GGGGGGGGGGGGG</text>
+  <text x="26" y="391.0" class="ascii">GGGGGGGGGGGGGGGGGGGCLt1;:..,,.,,,,,:,,:;i111tfLG00GGGGGGGGGGGG</text>
+  <text x="26" y="398.0" class="ascii">GGGGGGGGGGGGGGGGGGGCLti,:,...    ..,,,:i1111tfLGGGGGGGGGGGGGGG</text>
+  <text x="26" y="405.0" class="ascii">GGGGGGGGGGGGGGGGGGGCLti.,:.....  ..,,:;;1111tfLCGGGGGGGGGGGGGG</text>
+  <text x="26" y="412.0" class="ascii">GGGGGCCGCCGGGGGGGGGCLtt, ,,,,::::,,,,:,:ti111fLCG0GGGGGGGGGGGG</text>
+  <text x="26" y="419.0" class="ascii">CCCGGCCGGGGGGGGGGGGCftf:  ,,,,:::::,:,.tf1111fLCGG0GGGGGGGGGGG</text>
+  <text x="26" y="426.0" class="ascii">CCGGCCCCCGGGGGGGGGGLLLfi   .,..,,,,:, ;fLfft1tfCGGGGGGGGGGGGGG</text>
+  <text x="26" y="433.0" class="ascii">CCCCCCCCGGCGGGGGGGG00Cf1:   .....,,, ,ttLtLCGCLLCGGGGGGGGGGGGG</text>
+  <text x="26" y="440.0" class="ascii">CCCCCCCCCCCCGCCG08888CL1i.      .....1ttLtfG0880GGGGGGGGGGGGGG</text>
+  <text x="26" y="447.0" class="ascii">CCCCCCCCCCCCCG0888880CLf1;       .. ;t1tLffG88888800GGGGGGGGGG</text>
+  <text x="26" y="454.0" class="ascii">CCCCCCCCCCCG088888880GCLf1, ...... ,11ttLtfG8888888880GGGGGGGG</text>
+  <text x="26" y="461.0" class="ascii">CCCCCCCCCG08888888880GGGLti  ....  itttfLfL0880008888880GGGGGG</text>
+  <text x="26" y="468.0" class="ascii">CCCCCCCC088808@@888@0GG0GLf;  ... ;ttttLCLC888880880888880GGGG</text>
+  <text x="26" y="475.0" class="ascii">CCCCCCG0888888@@88880GG0GGCL,.,,.,1ttfLCGC08888888880888880GGG</text>
+  <text x="26" y="482.0" class="ascii">CCCCCG08888888@@88888GG000GGL:;::i1tLGGG00888888808808888880GG</text>
+  <text x="26" y="489.0" class="ascii">CCCC00888888888@888@8GG880008t,:i1tL088008@888888088008800880C</text>
+  <text x="26" y="496.0" class="ascii">CCC000G888888808@8@@8GG08008t.::;LC0880008@888@@80088G00G0880G</text>
+  <text x="26" y="503.0" class="ascii">CLG800G08888800088@@8GG00081   . t@8880008@888@@80G080G0G0080G</text>
+  <text x="26" y="510.0" class="ascii">LC0000088088000008@88GG0081       f@880008@@88@@88GG80G0G0000C</text>
+  <text x="26" y="517.0" class="ascii">LC00G0G80088000008@880G08f.        L@008G0@@88@@880G080G0000GC</text>
+  <text x="26" y="524.0" class="ascii">LCG0GGG00880088088888GG0f:;,       .C800G08@8888@88GG00G0008GC</text>
+  <text x="26" y="531.0" class="ascii">CCGGGGG08800088888888GGC;;;;     .::;000G88@88888880GGGG0000CC</text>
+  <text x="26" y="538.0" class="ascii">CCGGGGG880G0888888888GC1;1LG;    ifi;18GG88@88888@80GGGG0000CG</text>
+  <text x="26" y="545.0" class="ascii">GCGGGGG80GG08888888880titG88t   :CGCf;CG088888888@88GGGGGG0GCG</text>
+  <text x="26" y="552.0" class="ascii">GCC0GGGGGG088888888888LL0880t   t80G0C1L8888888888880GG0GG0GC0</text>
+  <text x="26" y="559.0" class="ascii">GCC0GGGGGG088888888888888880f   L880G8CL8888888888880GGGGC0GGG</text>
+  <text x="26" y="566.0" class="ascii">CCL0GCGGG08888888888888888801   1888088888888888888880GG0GGGGC</text>
+  <text x="26" y="573.0" class="ascii">GCLGGCG00888888888888888888G:   :888088888888888888@88GG0GGGCC</text>
+  <text x="26" y="580.0" class="ascii">CCfGGCG00888808888888888880C.   .0880888888888888008@80G0CGGCC</text>
+  <text x="26" y="587.0" class="ascii">CCfCGCG00800GG8888888888880L     C888888888880880GG0888G0GGGCC</text>
+</g>
+
+<!-- Animated scan sweep over portrait -->
+<g clip-path="url(#portrait-clip)" class="motion-scan">
+  <rect x="14" y="0" width="480" height="80" fill="url(#scan)" opacity="0.7"/>
+</g>
+
+<!-- Portrait bottom label -->
+<text x="254" y="564" text-anchor="middle" class="panel-title">SIGNAL.LOCKED</text>
+
+<!-- ── Right info panel ── -->
+<rect x="510" y="48" width="654" height="500" rx="14"
+      fill="#161B22" fill-opacity="0.42"
+      stroke="url(#border)" stroke-opacity="0.42"/>
+
+<!-- SYSTEM.INFO header -->
+<text x="536" y="88" class="system-head" fill="#F0F6FC">SYSTEM.INFO</text>
+<text x="700" y="88" class="system-head" fill="#58A6FF">/ FULL.STACK.BUILDER</text>
+
+<line x1="536" y1="96" x2="1146" y2="96" stroke="#8B949E" stroke-opacity="0.25" stroke-width="1"/>
+
+<!-- Identity rows -->
+<text x="536" y="122" class="system-row">
+  <tspan fill="#8B949E">  Name:   </tspan><tspan fill="#C9D1D9">....... </tspan><tspan fill="#F0F6FC">Limitbreakzz</tspan>
+</text>
+<text x="536" y="144" class="system-row">
+  <tspan fill="#8B949E">  Role:   </tspan><tspan fill="#C9D1D9">....... </tspan><tspan fill="#F0F6FC">Full Stack Developer</tspan>
+</text>
+<text x="536" y="166" class="system-row">
+  <tspan fill="#8B949E">  Stack:  </tspan><tspan fill="#C9D1D9">....... </tspan><tspan fill="#F0F6FC">React / Next.js / Node.js</tspan>
+</text>
+<text x="536" y="188" class="system-row">
+  <tspan fill="#8B949E">  DB:     </tspan><tspan fill="#C9D1D9">....... </tspan><tspan fill="#F0F6FC">MySQL | PostgreSQL</tspan>
+</text>
+<text x="536" y="210" class="system-row">
+  <tspan fill="#8B949E">  Status: </tspan><tspan fill="#C9D1D9">....... </tspan><tspan fill="#3FB950">Building / Coding / Shipping</tspan>
+</text>
+
+<line x1="536" y1="224" x2="1146" y2="224" stroke="#8B949E" stroke-opacity="0.18" stroke-width="1"/>
+
+<!-- BUILD.MODE -->
+<text x="536" y="252" class="system-section" fill="#FEBC2E">  — BUILD.MODE —</text>
+<text x="536" y="274" class="system-row">
+  <tspan fill="#8B949E">  Primary:   </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#F0F6FC">Web Applications</tspan>
+</text>
+<text x="536" y="296" class="system-row">
+  <tspan fill="#8B949E">  Direction: </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#F0F6FC">Full Stack Development</tspan>
+</text>
+<text x="536" y="318" class="system-row">
+  <tspan fill="#8B949E">  Themes:    </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#F0F6FC">Performance / Scalability</tspan>
+</text>
+
+<line x1="536" y1="332" x2="1146" y2="332" stroke="#8B949E" stroke-opacity="0.18" stroke-width="1"/>
+
+<!-- CURRENT.STACK -->
+<text x="536" y="360" class="system-section" fill="#FEBC2E">  — CURRENT.STACK —</text>
+<text x="536" y="382" class="system-row">
+  <tspan fill="#8B949E">  Frontend:  </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#F0F6FC">React / Next.js</tspan>
+</text>
+<text x="536" y="404" class="system-row">
+  <tspan fill="#8B949E">  Backend:   </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#F0F6FC">Node.js / Express.js</tspan>
+</text>
+<text x="536" y="426" class="system-row">
+  <tspan fill="#8B949E">  Database:  </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#F0F6FC">MySQL | PostgreSQL</tspan>
+</text>
+<text x="536" y="448" class="system-row">
+  <tspan fill="#8B949E">  Tools:     </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#F0F6FC">Git / VS Code / Postman</tspan>
+</text>
+
+<line x1="536" y1="462" x2="1146" y2="462" stroke="#8B949E" stroke-opacity="0.18" stroke-width="1"/>
+
+<!-- GRID.LINES -->
+<text x="536" y="490" class="system-section" fill="#FEBC2E">  — GRID.LINES —</text>
+<text x="536" y="512" class="system-row">
+  <tspan fill="#8B949E">  GitHub:    </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#F0F6FC">@Limitbreakzz</tspan>
+</text>
+<text x="536" y="534" class="system-row">
+  <tspan fill="#8B949E">  Portfolio: </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#3FB950">limitbreakzz.dev</tspan>
+</text>
+
+<!-- signal.locked status -->
+<text x="536" y="570" class="terminal-label" fill="#3FB950">  signal.locked → REACT / NODE.JS / FULL.STACK</text>
+
+</svg>
