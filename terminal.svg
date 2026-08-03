@@ -247,10 +247,10 @@
 <text x="700" y="88" class="sh" fill="#58A6FF">/ FULL.STACK.BUILDER</text>
 <line x1="536" y1="96" x2="1146" y2="96" stroke="#8B949E" stroke-opacity="0.25" stroke-width="1"/>
 
-<text x="536" y="122" class="sr"><tspan fill="#8B949E">  Name:   </tspan><tspan fill="#C9D1D9">....... </tspan><tspan fill="#F0F6FC">Limitbreakzz</tspan></text>
+<text x="536" y="122" class="sr"><tspan fill="#8B949E">  Name:   </tspan><tspan fill="#C9D1D9">....... </tspan><tspan fill="#F0F6FC">ICE-Lomphong</tspan></text>
 <text x="536" y="144" class="sr"><tspan fill="#8B949E">  Role:   </tspan><tspan fill="#C9D1D9">....... </tspan><tspan fill="#F0F6FC">Full Stack Developer</tspan></text>
-<text x="536" y="166" class="sr"><tspan fill="#8B949E">  Stack:  </tspan><tspan fill="#C9D1D9">....... </tspan><tspan fill="#F0F6FC">React / Next.js / Node.js</tspan></text>
-<text x="536" y="188" class="sr"><tspan fill="#8B949E">  DB:     </tspan><tspan fill="#C9D1D9">....... </tspan><tspan fill="#F0F6FC">MySQL | PostgreSQL</tspan></text>
+<text x="536" y="166" class="sr"><tspan fill="#8B949E">  Stack:  </tspan><tspan fill="#C9D1D9">....... </tspan><tspan fill="#F0F6FC">React / Node.js / MySQL</tspan></text>
+<text x="536" y="188" class="sr"><tspan fill="#8B949E">  DB:     </tspan><tspan fill="#C9D1D9">....... </tspan><tspan fill="#F0F6FC">MySQL</tspan></text>
 <text x="536" y="210" class="sr"><tspan fill="#8B949E">  Status: </tspan><tspan fill="#C9D1D9">....... </tspan><tspan fill="#3FB950">Building / Coding / Shipping</tspan></text>
 <line x1="536" y1="224" x2="1146" y2="224" stroke="#8B949E" stroke-opacity="0.18" stroke-width="1"/>
 
@@ -261,9 +261,9 @@
 <line x1="536" y1="332" x2="1146" y2="332" stroke="#8B949E" stroke-opacity="0.18" stroke-width="1"/>
 
 <text x="536" y="360" class="ss" fill="#FEBC2E">  - CURRENT.STACK -</text>
-<text x="536" y="382" class="sr"><tspan fill="#8B949E">  Frontend:  </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#F0F6FC">React / Next.js</tspan></text>
+<text x="536" y="382" class="sr"><tspan fill="#8B949E">  Frontend:  </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#F0F6FC">React / HTML5 / CSS3</tspan></text>
 <text x="536" y="404" class="sr"><tspan fill="#8B949E">  Backend:   </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#F0F6FC">Node.js / Express.js</tspan></text>
-<text x="536" y="426" class="sr"><tspan fill="#8B949E">  Database:  </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#F0F6FC">MySQL | PostgreSQL</tspan></text>
+<text x="536" y="426" class="sr"><tspan fill="#8B949E">  Database:  </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#F0F6FC">MySQL</tspan></text>
 <text x="536" y="448" class="sr"><tspan fill="#8B949E">  Tools:     </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#F0F6FC">Git / VS Code / Postman</tspan></text>
 <line x1="536" y1="462" x2="1146" y2="462" stroke="#8B949E" stroke-opacity="0.18" stroke-width="1"/>
 
@@ -271,6 +271,8 @@
 <text x="536" y="512" class="sr"><tspan fill="#8B949E">  GitHub:    </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#F0F6FC">@Limitbreakzz</tspan></text>
 <text x="536" y="534" class="sr"><tspan fill="#8B949E">  Portfolio: </tspan><tspan fill="#C9D1D9">...... </tspan><tspan fill="#3FB950">limitbreakzz.dev</tspan></text>
 <text x="536" y="572" class="tl" fill="#3FB950">  signal.locked - REACT / NODE.JS / FULL.STACK</text>
+
+
 
 <!-- Full Card Animated Scan Sweep (Exact Wildanniam Style) -->
 <g clip-path="url(#full-card-clip)" class="ms">
